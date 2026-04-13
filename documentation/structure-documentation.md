@@ -18,3 +18,13 @@ This file should be modified when there is a need to update styles, add new styl
 
 **Related files:**
 - `index.html`
+
+## script.js
+**Purpose:**
+The `script.js` file contains JavaScript logic for the web application, including interactive behavior and dynamic updates to the page.
+
+**Change here when:**
+This file should be modified when there is a need to add new interactivity, update existing JavaScript behavior, or change how users interact with page elements.
+
+**Related files:**
+- `index.html`
