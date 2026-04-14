@@ -1,13 +1,12 @@
-## button.js
+## bad-vision-button.js
 **Purpose:**
-This file contains the logic for the Rainbow button, which changes the background color of the page in sequence through the colors of the rainbow.
+Contains the logic for the Bad Vision button, which toggles text size.
 
 **Change here when:**
-This file should be modified when the "Rainbow" button logic must be changed.
+This file should be modified when the Bad Vision button logic must be changed.
 
 **Related files:**
 - `index.html`
-
 
 ## index.html
 **Purpose:**
@@ -20,23 +19,4 @@ This file should be modified when there is a need to update the welcome message,
 - `styles.css`
 - `script.js`
 - `button.js`
-
-## styles.css
-**Purpose:**
-The `styles.css` file contains style definitions for the web application, including layout and design elements.
-
-**Change here when:**
-This file should be modified when there is a need to update styles, add new styles, or change existing styles for the application.
-
-**Related files:**
-- `index.html`
-
-## script.js
-**Purpose:**
-The `script.js` file contains JavaScript logic for the web application, including interactive behavior and dynamic updates to the page.
-
-**Change here when:**
-This file should be modified when there is a need to add new interactivity, update existing JavaScript behavior, or change how users interact with page elements.
-
-**Related files:**
-- `index.html`
+- `bad-vision-button.js`
