@@ -1,7 +1,10 @@
-## styles.css
-**Purpose:** Update button styles for consistency.
-**Change here when:** New button styles are introduced or existing ones are modified.
-**Related files:** button.js, bad-vision-button.js
-**Change Description:**
-- Updated the button class to ensure all buttons have consistent styles.
-- Increased the size of buttons, added more internal padding, and applied color styling.
+## documentation/structure-documentation.md
+script.js  
+**Purpose:** Handles button styles and interactions.  
+**Change here when:** Button styles need to be consistent.  
+**Related files:** styles.css, button.js, bad-vision-button.js  
+
+**Additional Information:**  
+**Change Description:**  
+- Manages the light/dark mode toggle feature.  
+- Applies consistent styles to specific buttons in implementation.
