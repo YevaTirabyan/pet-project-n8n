@@ -1,6 +1,9 @@
+## button.js
+This file contains the logic for the Rainbow button, which changes the background color of the page in sequence through the colors of the rainbow.
+
 ## index.html
 **Purpose:**
-The `index.html` file serves as the main entry point for the web application. It displays a simple webpage with a single header, "Hello, world!", welcoming visitors. It also includes the script for toggling light/dark mode.
+The `index.html` file serves as the main entry point for the web application. It displays a simple webpage with a single header, "Hello, world!", welcoming visitors. It also includes the script for toggling light/dark mode and the logic for the Rainbow button.
 
 **Change here when:**
 This file should be modified when there is a need to update the welcome message, add additional content, change the HTML structure of the main page, or link to style files.
@@ -8,6 +11,7 @@ This file should be modified when there is a need to update the welcome message,
 **Related files:**
 - `styles.css`
 - `script.js`
+- `button.js`
 
 ## styles.css
 **Purpose:**
@@ -27,4 +31,5 @@ The `script.js` file contains JavaScript logic for the web application, includin
 This file should be modified when there is a need to add new interactivity, update existing JavaScript behavior, or change how users interact with page elements.
 
 **Related files:**
-- `index.html`
+- `index.html`  
+- `button.js`
