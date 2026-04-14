@@ -1,5 +1,13 @@
 ## button.js
+**Purpose:**
 This file contains the logic for the Rainbow button, which changes the background color of the page in sequence through the colors of the rainbow.
+
+**Change here when:**
+This file should be modified when the "Rainbow" button logic must be changed.
+
+**Related files:**
+- `index.html`
+
 
 ## index.html
 **Purpose:**
@@ -31,5 +39,4 @@ The `script.js` file contains JavaScript logic for the web application, includin
 This file should be modified when there is a need to add new interactivity, update existing JavaScript behavior, or change how users interact with page elements.
 
 **Related files:**
-- `index.html`  
-- `button.js`
+- `index.html`
