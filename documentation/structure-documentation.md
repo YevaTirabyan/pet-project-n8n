@@ -1,3 +1,10 @@
+### styles.css
+**Purpose:** Update button styles for consistency.
+**Change here when:** New button styles are introduced or existing ones are modified.
+**Related files:** button.js, bad-vision-button.js
+**Change Description:**
+- Updated the button class to ensure all buttons have consistent styles.
+
 ## index.html
 **Purpose:**
 The `index.html` file serves as the main entry point for the web application. It displays a simple webpage with a single header, "Hello, world!", welcoming visitors. It also includes the script for toggling light/dark mode and the logic for the Rainbow button.
