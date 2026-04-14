@@ -9,4 +9,8 @@ document.addEventListener('DOMContentLoaded', () => {
         document.body.style.backgroundColor = isDarkMode ? '#333' : '#FFF';
         document.body.style.color = isDarkMode ? '#FFF' : '#000';
     });
+
+    const specificButton = document.querySelector('.specific-button');
+    specificButton.style.backgroundColor = 'blue';
+    specificButton.style.fontSize = '16px';
 });
