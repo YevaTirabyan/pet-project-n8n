@@ -1,3 +1,11 @@
+documentation/structure-documentation.md
+
+## new-feature.js
+
+- Purpose: Implements a new feature that logs a message.
+- Change here when: The new feature is integrated into the system.
+- Related files: src/index.js
+
 ## bad-vision-button.js
 **Purpose:**
 Contains the logic for the Bad Vision button, which toggles text size.
@@ -20,3 +28,10 @@ This file should be modified when there is a need to update the welcome message,
 - `script.js`
 - `button.js`
 - `bad-vision-button.js`
+
+src/new-feature.js
+function newFeature() {
+    console.log('This is a new feature');
+}
+
+module.exports = newFeature;
