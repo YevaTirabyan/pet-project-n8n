@@ -56,7 +56,6 @@
       "responsibility": "Implements Rainbow button behavior that changes the page background through rainbow colors.",
       "change_when": [
         "Rainbow button behavior must be changed",
-        "background color sequence must be updated",
         "Rainbow button interaction logic must be extended"
       ],
       "used_by": [
@@ -69,7 +68,6 @@
       "responsibility": "Implements Bad Vision button behavior that toggles text size for accessibility.",
       "change_when": [
         "Bad Vision button behavior must be changed",
-        "text size toggle logic must be updated",
         "accessibility-related font scaling must be adjusted"
       ],
       "used_by": [
