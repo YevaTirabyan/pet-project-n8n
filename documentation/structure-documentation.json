@@ -1,0 +1,86 @@
+{
+  "structure": [
+    "index.html",
+    "styles.css",
+    "script.js",
+    "button.js",
+    "bad-vision-button.js"
+  ],
+  "components": [
+    {
+      "path": "index.html",
+      "type": "entry_point",
+      "responsibility": "Main HTML entry point of the application. Defines the page structure, welcome header, and connects scripts and styles.",
+      "change_when": [
+        "welcome text must be changed",
+        "page layout or HTML structure must be updated",
+        "new UI elements must be added",
+        "CSS or JS files must be connected or removed"
+      ],
+      "depends_on": [
+        "styles.css",
+        "script.js",
+        "button.js",
+        "bad-vision-button.js"
+      ]
+    },
+    {
+      "path": "styles.css",
+      "type": "style",
+      "responsibility": "Contains general JavaScript behavior for the page, including interactive and dynamic UI updates.",
+      "change_when": [
+        "general page interactivity must change",
+        "new UI behavior must be added",
+        "existing event handling must be updated"
+      ],
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "script.js",
+      "type": "logic",
+      "responsibility": "Contains general JavaScript behavior for the page, including interactive and dynamic UI updates.",
+      "change_when": [
+        "general page interactivity must change",
+        "new UI behavior must be added",
+        "existing event handling must be updated"
+      ],
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "button.js",
+      "type": "feature_logic",
+      "responsibility": "Implements Rainbow button behavior that changes the page background through rainbow colors.",
+      "change_when": [
+        "Rainbow button behavior must be changed",
+        "background color sequence must be updated",
+        "Rainbow button interaction logic must be extended"
+      ],
+      "used_by": [
+        "index.html"
+      ]
+    },
+    {
+      "path": "bad-vision-button.js",
+      "type": "feature_logic",
+      "responsibility": "Implements Bad Vision button behavior that toggles text size for accessibility.",
+      "change_when": [
+        "Bad Vision button behavior must be changed",
+        "text size toggle logic must be updated",
+        "accessibility-related font scaling must be adjusted"
+      ],
+      "used_by": [
+        "index.html"
+      ]
+    }
+  ],
+  "constraints": [
+    "HTML structure changes should be made in index.html",
+    "visual-only changes should be made in styles.css",
+    "feature-specific button logic should stay in its dedicated JS file",
+    "new interactive features should be added in a way consistent with the existing separation of concerns"
+  ]
+}
